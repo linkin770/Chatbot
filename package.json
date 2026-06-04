@@ -1,0 +1,58 @@
+{
+  "name": "chatbot",
+  "productName": "Chatbot",
+  "version": "0.1.0",
+  "description": "A refined, Linear-inspired desktop chatbot client powered by OpenAI-compatible APIs.",
+  "main": ".vite/build/main.cjs",
+  "scripts": {
+    "start": "electron-forge start",
+    "dev": "node start-electron.js",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "lint": "eslint --ext .ts,.tsx src"
+  },
+  "keywords": [
+    "electron",
+    "chatbot",
+    "openai",
+    "deepseek",
+    "react",
+    "typescript"
+  ],
+  "author": "Chatbot Team",
+  "license": "MIT",
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "electron-squirrel-startup": "^1.0.1",
+    "highlight.js": "^11.10.0",
+    "nanoid": "^5.0.7",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-markdown": "^9.0.1",
+    "rehype-highlight": "^7.0.0",
+    "remark-gfm": "^4.0.0",
+    "zustand": "^4.5.5"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^7.5.0",
+    "@electron-forge/maker-deb": "^7.5.0",
+    "@electron-forge/maker-dmg": "^7.5.0",
+    "@electron-forge/maker-rpm": "^7.5.0",
+    "@electron-forge/maker-squirrel": "^7.5.0",
+    "@electron-forge/maker-zip": "^7.5.0",
+    "@electron-forge/plugin-fuses": "^7.5.0",
+    "@electron-forge/plugin-vite": "^7.5.0",
+    "@electron-forge/shared-types": "^7.5.0",
+    "@electron/fuses": "^1.8.0",
+    "@types/node": "^20.14.10",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.19",
+    "electron": "^32.3.3",
+    "postcss": "^8.4.39",
+    "tailwindcss": "^3.4.6",
+    "typescript": "^5.5.3",
+    "vite": "^5.3.4"
+  }
+}
